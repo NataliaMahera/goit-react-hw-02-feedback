@@ -12,8 +12,6 @@ export class App extends Component {
     initialValueBad: 0,
   };
 
-  static propTypes = {};
-
   state = {
     good: this.props.initialValueGood,
     neutral: this.props.initialValueNeutral,
